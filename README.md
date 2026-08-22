@@ -1,6 +1,6 @@
 # Kovana Coffee
 
-![Kovana Coffee](./public/images/hero.jpg)
+![Kovana Coffee](./public/images/foto4.jpg)
 
 Selamat datang di repository website **Kovana Coffee**, sebuah coffee shop yang berlokasi di Cikarang Pusat, Bekasi. Website ini dirancang untuk memberikan pengalaman digital yang elegan, modern, dan informatif bagi para pelanggan kami.
 
