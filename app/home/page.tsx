@@ -23,9 +23,6 @@ export default function HomePage() {
           <div className="absolute inset-0 flex items-center">
             <div className="mx-auto max-w-[1200px] px-6 lg:px-8 w-full">
               <div className="max-w-xl">
-                <p className="text-accent-light font-medium text-sm tracking-widest uppercase mb-4">
-                  ☕ Selamat Datang
-                </p>
                 <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
                   Kovana{" "}
                   <span className="italic text-cream">Coffee</span>

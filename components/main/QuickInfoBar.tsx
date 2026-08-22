@@ -3,7 +3,7 @@ import { ADDRESS, WHATSAPP_LINK } from "@/lib/routes";
 
 export default function QuickInfoBar() {
   return (
-    <section className="bg-cream-dark py-14">
+    <section className="hidden md:block bg-cream-dark py-14">
       <div className="mx-auto max-w-[1200px] px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex items-start gap-4 justify-center md:justify-start">
