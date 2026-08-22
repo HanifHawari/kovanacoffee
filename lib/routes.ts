@@ -1,0 +1,10 @@
+export const MAIN_WEBSITE_ROUTE = "/home";
+export const MENU_ROUTE = "/home/menu";
+export const ABOUT_ROUTE = "/home/about";
+export const GALLERY_ROUTE = "/home/gallery";
+export const CONTACT_ROUTE = "/home/contact";
+export const WHATSAPP_LINK = "https://wa.me/6281234567890";
+export const INSTAGRAM_LINK = "https://instagram.com/kovanacoffee.id";
+export const EMAIL = "kovanacoffee@gmail.com";
+export const PHONE = "+62 812-3456-7890";
+export const ADDRESS = "B2 No, Jl. Beruang Raya No.2, Jayamukti, Kec. Cikarang Pusat, Kabupaten Bekasi, Jawa Barat 17550";
