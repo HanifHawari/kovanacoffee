@@ -1,4 +1,5 @@
-import { Coffee, Camera, MessageCircle, Mail } from "lucide-react";
+import Image from "next/image";
+import { Camera, MessageCircle, Mail } from "lucide-react";
 import { WHATSAPP_LINK, INSTAGRAM_LINK, EMAIL, PHONE, ADDRESS } from "@/lib/routes";
 
 const footerLinks = [
@@ -17,7 +18,13 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Coffee className="h-6 w-6 text-accent" />
+              <Image 
+                src="/images/logo.jpg" 
+                alt="Kovana Coffee Logo" 
+                width={24} 
+                height={24} 
+                className="rounded-full" 
+              />
               <span className="font-serif text-xl font-semibold text-white">
                 Kovana Coffee
               </span>

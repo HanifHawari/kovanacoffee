@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X, Coffee } from "lucide-react";
+import Image from "next/image";
+import { Menu, X } from "lucide-react";
 import { MAIN_WEBSITE_ROUTE } from "@/lib/routes";
 
 const navLinks = [
@@ -22,7 +23,13 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
-            <Coffee className="h-7 w-7 text-accent transition-transform duration-300 group-hover:rotate-12" />
+            <Image 
+              src="/images/logo.jpg" 
+              alt="Kovana Coffee Logo" 
+              width={28} 
+              height={28} 
+              className="rounded-full transition-transform duration-300 group-hover:rotate-12" 
+            />
             <span className="font-serif text-xl font-semibold text-charcoal tracking-tight">
               Kovana Coffee
             </span>
